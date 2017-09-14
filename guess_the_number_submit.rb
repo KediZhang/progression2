@@ -27,7 +27,7 @@ if session['n'] != session['num'].to_s
       "Your chances are run out<br/> go '/guess' to play again "
     end
 else
-  "congratulations, Your guess #{session['n']} is right<br/> go '/guess' to play again"
+  "congratulations, Your guess #{session['n']} is right <br/> go '/guess' to play again"
 end
 end
 
